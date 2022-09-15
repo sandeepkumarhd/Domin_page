@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+.list{
+    display: flex;
+    margin-top: 50px;
+    list-style-type:none;
+    justify-content: space-evenly;
+    margin-right: 170px;
+    margin-left: 50px;
+    width: 100vh;
+    color: aliceblue;
+    font-family: "Montserrat";
+    font-size: 20px;
+}
+.button-small{
+    margin-right: 100px;
+    margin-top: 40px;
+    padding: 10px 65px ;
+   
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(128, 0, 255);
+    color: aliceblue;
+    font-size: 20px;
+    font-family:"Montserrat" ;
+}
+.container{
+    background-image: url(assets/bg.png);
+    background-size: cover;
+    height: 100vh;
+}
+.logo{
+    margin-top: 30px;
+    margin-left: 80px;
+}
+.hero{
+   
+    margin-top: 100px;
+}
+.hero-heading{
+    text-align: center;
+    font-size: 100px;
+    color: aliceblue;
+    font-family:  "Montserrat";
+}
+.hero-description{
+    text-align: center;
+    color: aliceblue;
+    font-family:  "Montserrat";
+    font-size: 35px;
+    margin-top: 20px;
+}
+.button-large{
+    border: none;
+    
+    padding: 17px 45px;
+    background-color: rgb(233, 219, 23);
+    font-size: 25px;
+    border-radius: 10px;
+    
+}
+.button-large2{
+    text-align: center;
+    margin-top: 80px;
+    
+}
